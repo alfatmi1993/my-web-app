@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REGISTRY = "your-docker-registry"
+        REGISTRY = "alfatmi1993/"
         REPO = "my-web-app"
         DOCKER_CREDENTIALS_ID = "docker-hub-credentials"
     }
